@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-filesharingsystemApplication<filesharingsystem>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.filesharingsystems.filesharingsystemApplication",
+            "projectName": "filesharingsystem",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-filesharingsystemApplication<com.filesharingsystem-filesharingsystem>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.filesharingsystems.filesharingsystemApplication",
+            "projectName": "com.filesharingsystem-filesharingsystem",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
